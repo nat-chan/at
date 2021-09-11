@@ -1,0 +1,35 @@
+name: at
+channels:
+  - anaconda
+  - conda-forge
+  - default
+  - numba
+  - plotly
+dependencies:
+  - python==3.8.2
+  - numpy
+  - scipy
+  - scikit-learn
+  - numba
+  - networkx
+  - line_profiler
+  - pudb
+  - matplotlib
+  - plotly
+  - pynvim
+  - mypy
+  - pylint
+  - yapf
+  - flake8
+  - black
+  - pytest
+  - selenium
+  - ipykernel
+  - pip
+  - pip:
+    - online-judge-tools
+    - online-judge-template-generator
+    - wrong-answer
+    - better_exceptions
+    - icecream
+    - git+https://github.com/not522/ac-library-python
